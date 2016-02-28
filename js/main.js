@@ -59,7 +59,7 @@ function populate_anunturi() {
 
     var add_panel_header = document.createElement('div');
     add_panel_header.className = 'panel-heading';
-    add_panel_header.innerHTML='<p2>Anunt</p2>';
+    add_panel_header.innerHTML='<h3>Anunt</h3>';
 
     var add_panel_body = document.createElement('div');
     add_panel_body.className = 'panel-body';
