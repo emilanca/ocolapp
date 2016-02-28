@@ -283,4 +283,11 @@ textarea {
 
 
 /* My stuff */
-
+.jumbotron {
+    position: relative;
+    background: #000 url("../img/forest-foggy.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
