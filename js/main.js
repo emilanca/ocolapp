@@ -17,6 +17,12 @@
 				controller  : 'licitatiiController'
 			})
 
+			// route for the webmail page
+            			.when('/webmail', {
+            				templateUrl : 'pages/webmail.html',
+            				controller  : 'webmailController'
+            			})
+
 			// route for the contact page
 			.when('/contact', {
 				templateUrl : 'pages/contact.html',
@@ -27,12 +33,16 @@
 	// create the controller and inject Angular's $scope
 	ocolApp.controller('mainController', function($scope) {
 		// create a message to display in our view
-		$scope.message = 'Everyone come and see how good I look!';
+		$scope.message = 'Despre noi';
 	});
 
 	ocolApp.controller('licitatiiController', function($scope) {
 		$scope.message = 'Look! I am an about page.';
 	});
+
+	ocolApp.controller('webmailController', function($scope) {
+    		$scope.message = 'Webmail. Comming soon.';
+    	});
 
 	ocolApp.controller('contactController', function($scope) {
 		$scope.message = 'Contact us';
