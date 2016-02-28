@@ -10,6 +10,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <!-- SCROLLS -->
@@ -17,6 +18,7 @@
         <!-- Latest compiled JavaScript -->
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
@@ -46,12 +48,15 @@
         <div id="main">
             <div class="container">
 
-                <div class="panel panel-default">
-                    <div class="panel-body"><!-- angular templating -->
+                <!--<div class="panel panel-default">-->
+                    <!--<div class="panel-body">-->
+                        <!-- angular templating -->
                         <!-- this is where content will be injected -->
-                        <div ng-view></div></div>
-                    <div class="panel-footer"><b>Ocolul Silvic Municipal Bistrita @2016 Toate drepturile rezervate</b></div>
-                </div>
+                        <div ng-view>
+                        </div>
+                    <!--</div>-->
+                    <!--<div class="panel-footer"><b>Ocolul Silvic Municipal Bistrita @2016 Toate drepturile rezervate</b></div>-->
+                <!--</div>-->
 
 
             </div>
