@@ -1,5 +1,5 @@
 <!doctype html>
-<html ng-app="ocolApp" class="no-js" lang="">
+<html ng-app="ocolApp" class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -13,7 +13,9 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <!-- SCROLLS -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -40,25 +42,12 @@
             </div>
         </nav>
 
-        <!--<nav class="navbar navbar-default">-->
-            <!--<div class="container-fluid">-->
-                <!--<div class="navbar-header">-->
-                    <!--<a class="navbar-brand" href="#">WebSiteName</a>-->
-                <!--</div>-->
-                <!--<ul class="nav navbar-nav">-->
-                    <!--<li class="active"><a href="#">Home</a></li>-->
-                    <!--<li><a href="#">Acasa</a></li>-->
-                    <!--<li><a href="#licitatii">Licitatii</a></li>-->
-                    <!--<li><a href="#contact">Contact</a></li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</nav>-->
-
         <div id="main">
-
-            <!-- angular templating -->
-            <!-- this is where content will be injected -->
-            <div ng-view></div>
+            <div class="container">
+                <!-- angular templating -->
+                <!-- this is where content will be injected -->
+                <div ng-view></div>
+            </div>
 
         </div>
 
