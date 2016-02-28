@@ -291,3 +291,9 @@ textarea {
     background-size: cover;
     overflow: hidden;
 }
+
+
+html,
+body {
+    height: 100%;
+}
