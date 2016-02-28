@@ -53,7 +53,7 @@
 
 // DEMO FUNCTION DE TESTARE LA CONSTRUCTIE DINAMICA DE VIEW
 function populate_anunturi() {
-    for(var i = 0; i < 1; i++) {
+    for(var i = 0; i < 2; i++) {
     var adDPanel = document.createElement('div');
     adDPanel.className = 'panel panel-success';
 
