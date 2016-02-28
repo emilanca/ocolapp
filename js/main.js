@@ -38,11 +38,11 @@
 	});
 
 	ocolApp.controller('licitatiiController', function($scope) {
-		$scope.message = 'Look! I am an about page.';
+		$scope.message = 'In curand.';
 	});
 
 	ocolApp.controller('webmailController', function($scope) {
-    		$scope.message = 'Webmail. Comming soon.';
+    		$scope.message = 'Webmail. In curand.';
     	});
 
 	ocolApp.controller('contactController', function($scope) {
