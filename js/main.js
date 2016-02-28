@@ -35,7 +35,7 @@
 		// create a message to display in our view
 		$scope.message = 'Despre noi';
 		$scope.anunturi_content = 'shalala';
-		//populate_anunturi()
+		populate_anunturi()
 
 	});
 
@@ -53,25 +53,33 @@
 
 // DEMO FUNCTION DE TESTARE LA CONSTRUCTIE DINAMICA DE VIEW
 function populate_anunturi() {
-    for(var i = 0; i < 5; i++) {
+    for(var i = 0; i < 1; i++) {
     var adDPanel = document.createElement('div');
     adDPanel.className = 'panel panel-success';
 
     var add_panel_header = document.createElement('div');
     add_panel_header.className = 'panel-heading';
+    add_panel_header.innerHTML='<p2>Anunt</p2>';
 
     var add_panel_body = document.createElement('div');
     add_panel_body.className = 'panel-body';
+    add_panel_body.innerHTML='<p2>Shalala</p2>';
+
+    var add_panel_footer = document.createElement('div');
+    add_panel_footer.className = 'panel-footer';
+    var currentTime = new Date();
+    var utc = new Date().toJSON().slice(0,10);
+    add_panel_footer.innerHTML = utc;
 
 
     adDPanel.appendChild(add_panel_header);
     adDPanel.appendChild(add_panel_body);
-//    iDiv.id = 'block';
-
+    adDPanel.appendChild(add_panel_footer);
     var anunturi_col = document.getElementById('anunturi-col');
     if (anunturi_col != null) {
         anunturi_col.appendChild(adDPanel);
     }
+
 
     }
 }
