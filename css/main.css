@@ -295,5 +295,7 @@ textarea {
 
 html,
 body {
-    height: 100%;
+        background: #000 url("../img/forest-foggy.jpg") center center;
+        background-size: cover;
+
 }
